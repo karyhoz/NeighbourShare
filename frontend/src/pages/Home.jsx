@@ -1,6 +1,7 @@
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from "react";
 import Navbar from "../component/Navbar";
+import Footer from '../component/Footer';
 
 const Home = () => {
 
@@ -20,13 +21,14 @@ const Home = () => {
         });
         
     }, []);
-    
+
     useEffect(() => {
         document.title = 'Home';
       }, []);
     return(
         <>
             <Navbar/>
+            <Footer/>
         </>
     )
 
