@@ -3,10 +3,11 @@
     color: #0F172A; /* Text color */
     padding: 20px;
     text-align: center;
+    height: 30vh;
   }
   
   .footer-content {
-    max-width: 800px;
+    max-width: 1250px;
     margin: 0 auto;
   }
   
@@ -19,12 +20,46 @@
   }
   
   .social-icons a {
-    margin: 0 10px;
-    color: #0F172A; /* Text color for links */
-    text-decoration: none;
+    margin: 0 15px; /* Space between icons */
+    color: #0F172A; /* Icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s; /* Transition for hover effect */
   }
   
   .social-icons a:hover {
-    text-decoration: underline; /* Underline on hover */
+    color: #FF7C57; /* Change color on hover */
   }
   
+  .footer-nav {
+    margin-top: 20px; /* Space above navigation */
+    margin-bottom: 40px;
+  }
+  
+  .footer-nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+  }
+  
+  .footer-nav li {
+    display: inline; /* Display items inline */
+    margin: 0 15px; /* Space between items */
+  }
+  
+  .footer-nav a {
+    color: #0F172A; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  .footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer-flex p{
+    justify-self: flex-end;
+  }
