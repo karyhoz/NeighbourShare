@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is the backend of NeighourShare, where server logic is being built",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JuliusMonday/NeighbourShare.git"
+  },
+  "keywords": [
+    "Community",
+    "Share",
+    "Humanity",
+    "Accomodation",
+    "Giveaway",
+    "NeighbourShare"
+  ],
+  "author": "JuTeLabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuliusMonday/NeighbourShare/issues"
+  },
+  "homepage": "https://github.com/JuliusMonday/NeighbourShare#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.3",
+    "morgan": "^1.10.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
