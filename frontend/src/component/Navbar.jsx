@@ -18,10 +18,10 @@ const Navbar = () => {
             <Link to="/" className="nav-links" onClick={handleClick}>Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/search" className="nav-links" onClick={handleClick}>Search Items</Link>
+            <Link to="/search" className="nav-links" onClick={handleClick}>Browse Items</Link>
           </li>
           <li className="nav-item">
-            <Link to="/post" className="nav-links" onClick={handleClick}>Post Items</Link>
+            <Link to="/post" className="nav-links" onClick={handleClick}>Post an Item</Link>
           </li>
           <li className="nav-item" id="mobile-contact">
           <Link to="/contact" className="nav-links" onClick={handleClick}>Contact Us <FaArrowRight/></Link>
