@@ -29,7 +29,7 @@ const Navbar = () => {
         </ul>
         <div className="contact-btn">
           <button className="btn-contact">
-            <Link to="/contact" className="nav-links contact-innerBtn" onClick={handleClick}>Contact Us </Link><p className="contact-icon"><FaArrowRight/></p>
+            <Link to="/contact" className="nav-links contact-innerBtn" onClick={handleClick}>Contact Us <FaArrowRight className="contact-icon"/></Link>
           </button>
         </div>
          <div className="mobile-icon" onClick={handleClick}>

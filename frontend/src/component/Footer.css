@@ -63,3 +63,45 @@
   .footer-flex p{
     justify-self: flex-end;
   }
+  @media (max-width: 768px) {
+    .footer {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px 10px; /* Adjust padding for mobile */
+    }
+
+    .footer-content {
+        padding: 0 10px; /* Add padding for better spacing */
+    }
+
+    .social-icons {
+        margin-top: 10px;
+        display: flex; /* Use flexbox for alignment */
+        justify-content: center; /* Center the icons */
+    }
+
+    .social-icons a {
+        margin: 0 10px; /* Reduce space between icons */
+        font-size: 20px; /* Adjust icon size */
+    }
+
+    .footer-nav {
+        margin-top: 15px; /* Reduce space above navigation */
+        margin-bottom: 20px; /* Reduce space below navigation */
+    }
+
+    .footer-nav li {
+        display: block; /* Stack items vertically */
+        margin: 5px 0; /* Space between items */
+    }
+
+    .footer-flex {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        margin-top: 10px; /* Adjust margin */
+    }
+
+    .footer-flex p {
+        justify-self: center; /* Center text */
+        margin-top: 10px; /* Add margin for spacing */
+    }
+}

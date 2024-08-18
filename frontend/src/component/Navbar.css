@@ -13,8 +13,8 @@
     margin: 0 auto;
 }
 .navbar-logo > img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 .tagline{
@@ -30,7 +30,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    height: 70px;
+    height: 65px;
     width: 100%;
     position: sticky;
     top: 0;
@@ -83,15 +83,19 @@
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
 }
 
-.contact-innerBtn{
-
+.contact-icon{
+    margin-left: 8px; 
+    vertical-align: middle;
+    transition: transform 0.3s;
 }
 .btn-contact:hover{
     background-color: #DB3F23;
+}
+.btn-contact:hover .contact-icon{
+    transform: translateX(5px); 
 }
 .btn-contact > .nav-links{
     color: #FFFFFF;
