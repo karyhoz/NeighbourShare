@@ -5,6 +5,8 @@ import Footer from '../component/Footer';
 import HomeHero from '../component/HomeHero';
 import Features from '../component/Features';
 import Testimonials from '../component/Testimonials';
+import JoinUs from '../component/JoinUs';
+import HomeContactSection from '../component/HomeContactSection';
 
 const Home = () => {
 
@@ -49,6 +51,8 @@ const Home = () => {
             <HomeHero/>
             <Features/>
             <Testimonials/>
+            <JoinUs/>
+            <HomeContactSection/>
             <Footer/>
         </>
     )

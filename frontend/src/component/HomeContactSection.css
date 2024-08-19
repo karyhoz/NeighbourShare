@@ -1,0 +1,166 @@
+.home-contact-section{
+    width: 100%;
+    background-color: #fff;
+}
+.home-sub-contact-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-top: 4.5rem;
+    padding-bottom: 3.5rem;
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+}
+.contact-details h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #0f172a;
+
+}
+.contact-details p{
+    font-size: 1rem;
+    color: #0f172a;
+    padding-bottom: 15px;
+}
+.info-text{
+    font-size: 1rem;
+    color: #0f172a;
+    margin-bottom: 1.5rem;
+}
+.location-icon{
+    color: #ff5733;
+}
+.location-details{
+    margin-top: 90px;
+    display: flex;
+    gap: 10rem;
+}
+.location-details h1{
+    font-size: 1.875rem;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #0f172a;
+}
+.location-details p{
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #0f172a;
+}
+.shop-btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 40px;
+    
+}
+.get-started-btn{
+    background-color: #ff5733;
+    padding: 10px 14px;
+    border-radius: 0.3rem;
+    color: #fff;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.get-started-btn:hover{
+    background-color: #FF7C57;
+}
+.contact-us-btn{
+    background-color: #fff;
+    padding: 10px 14px;
+    border-radius: 0.3rem;
+    color: #0f172a;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.arrow-icon{
+    margin-left:8px;
+    vertical-align: middle;
+}
+.contact-us-btn:hover .arrow-icon{
+    transform: translateX(5px);
+}
+.logo-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.company-logos{
+    align-self: center;
+}
+.logo-container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+    .home-contact-section{
+        padding: 20px;
+    }
+    .home-sub-contact-section {
+        padding-top: 2rem; /* Reduced top padding */
+        padding-bottom: 2rem; /* Reduced bottom padding */
+    }
+
+    .contact-details {
+        flex-direction: column; /* Stack contact details vertically */
+        align-items: flex-start; /* Align items to the start */
+        gap: 2rem; /* Reduced gap */
+    }
+
+    .contact-details h1 {
+        font-size: 1.25rem; /* Smaller heading size */
+    }
+
+    .contact-details p,
+    .info-text {
+        font-size: 0.875rem; /* Smaller text size */
+    }
+
+    .location-details {
+        flex-direction: column; /* Stack location details vertically */
+        gap: 2rem; /* Reduced gap */
+        margin-top: 40px; /* Adjusted margin */
+    }
+
+    .location-details h1 {
+        font-size: 1.5rem; /* Smaller heading size */
+    }
+
+    .location-details p {
+        font-size: 1rem; /* Smaller paragraph size */
+    }
+
+    .shop-btns {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: stretch; /* Stretch buttons to full width */
+        gap: 1rem; /* Add gap between buttons */
+        margin-top: 20px; /* Reduced top margin */
+    }
+
+    .get-started-btn,
+    .contact-us-btn {
+        width: 100%; /* Make buttons full width */
+    }
+
+    .logo-container {
+        flex-direction: row; /* Stack logos vertically */
+        align-items: center; /* Center logos */
+        gap: 1rem; /* Add gap */
+    }
+
+    .logo-container img {
+        width: 50px; /* Smaller logo size */
+        height: 50px; /* Smaller logo size */
+    }
+}
