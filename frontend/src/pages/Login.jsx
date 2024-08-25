@@ -1,8 +1,8 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const SignUp = () => {
+const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
@@ -10,8 +10,9 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('/api/signup', { email, password });
-      navigate('/login');
+      const response = await axios.post('/api/login', { email, password });
+      localStorage.setItem('token', response.data.token);
+      navigate('/profile');
     } catch (error) {
       console.error(error);
     }
@@ -19,7 +20,7 @@ const SignUp = () => {
 
   return (
     <div>
-      <h2>Sign Up</h2>
+      <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
@@ -35,10 +36,10 @@ const SignUp = () => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit">Sign Up</button>
+        <button type="submit">Login</button>
       </form>
     </div>
   );
 };
 
-export default SignUp;
+export default Login;

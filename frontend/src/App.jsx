@@ -5,6 +5,8 @@ import NotFound from './pages/NotFound';
 import SearchItem from './pages/SearchItem';
 import PostItem from './pages/PostItem';
 import Signup from './pages/Signup';
+import Login from './pages/Login';
+import Profile from './pages/Profile';
 const HomePage = () => {
   useEffect(() => {
     document.title = 'Home';
@@ -33,6 +35,8 @@ const App = () => {
                 <Route path="/search" element={<SearchItem />} />
                 <Route path="/post" element={<PostItem />} />
                 <Route path='/sign-up' element={<Signup/>} />
+                <Route path="/login" element={<Login/>} />
+                <Route path='/profile' element={<Profile/>} />
                 <Route path="*" element={<NotFound />} /> {/* Catch-all for 404 */}
             </Routes>
         </BrowserRouter>

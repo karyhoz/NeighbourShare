@@ -26,6 +26,15 @@ const Navbar = () => {
           <li className="nav-item" id="mobile-contact">
           <Link to="/contact" className="nav-links" onClick={handleClick}>Contact Us <FaArrowRight/></Link>
           </li>
+          <li className="nav-item">
+          <Link to="/sign-up" className="nav-links" onClick={handleClick}>Sign Up</Link>
+          </li>
+          <li className="nav-item login">
+            <Link to="/login" className="nav-links" onClick={handleClick}>Login</Link>
+          </li>
+          <li className="nav-item profile">
+            <Link to="/profile" className="nav-links" onClick={handleClick}>Profile</Link>
+          </li>
         </ul>
         <div className="contact-btn">
           <button className="btn-contact">
