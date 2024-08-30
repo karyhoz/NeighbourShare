@@ -109,10 +109,15 @@ margin-left: 3rem;margin-top: 1rem;
     display: flex;
     color: var(--buttons--);
     float: right;
-    margin-right: 38.2rem;
+    margin-right: 38rem;
 }
 
 .trend-wyt{
     display: inline-block;
     width: 20px;
+}
+
+/* ---------second page--------- */
+.impact-section{
+    background-color: #800c0c;
 }
