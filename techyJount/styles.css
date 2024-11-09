@@ -9,7 +9,7 @@
 
 
     /* deep-navy */
-    ---background--:#0f172a;
+    --background--:#0f172a;
 
     /* WARM-RED */
     --Text--:#646d7d;
@@ -18,6 +18,10 @@
 *{
 margin: 0;
 padding: 0;
+}
+
+html{
+    background-color: ;
 }
 
 .neighbor-img{
@@ -39,7 +43,7 @@ li{
     margin: 12px;
 }
 
-button {
+.button {
     margin-right: 6rem;
     display: inline-flex;
     gap: 3px;
@@ -49,6 +53,7 @@ button {
     padding: .5rem;
     border-radius: .9rem;
     text-indent: 10px;
+    cursor: pointer;
 }
 
 .trending_flat{
@@ -120,4 +125,20 @@ margin-left: 3rem;margin-top: 1rem;
 /* ---------second page--------- */
 .impact-section{
     background-color: #800c0c;
+}
+
+.section-1{
+    color: var(--hover--);
+}
+
+h2{
+    color: var(--text--);
+    font-family: 'roboto';
+    font-size: xx-large;
+    font-weight: light;
+}
+
+.section-2, .section-3{
+    color: var(--text--);
+
 }
