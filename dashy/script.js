@@ -1,11 +1,11 @@
 
 const sideMenu = document.querySelector('aside');
-const menueBtn = document.getElementById('menu-btn');
+const menuBtn = document.getElementById('menu-btn');
 const closeBtn = document.getElementById('close-btn');
 
 const darkMode = document.querySelector('.dark-mode');
 
-menueBtn.addEventListener('click', () =>{
+menuBtn.addEventListener('click', () =>{
     sideMenu.style.display = 'block';
 });
 
