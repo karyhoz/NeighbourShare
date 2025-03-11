@@ -1,0 +1,97 @@
+.testimonials{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.testimonials-header-txt{
+    padding-top: 80px;
+}
+.testimonials-header-txt h3{
+    color: #ff5733;
+    font-size: 1.125rem;
+}
+.testimonials-header-txt h2{
+    color: #0f172a;
+    font-size: 2.25rem;
+    font-family: "Poppins";
+}
+.testimonial-cards{
+    background-color: #FFF0E8;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+}
+.testimonials-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.testimonial-cards p{
+    font-size: 0.875rem;
+    color: #0f172a;
+}
+.card-owner{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    gap: 15px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: -40px;
+}
+.card-owner img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.owner-details{
+    line-height: 2px;
+}
+@media (max-width: 768px) {
+    .testimonials {
+        padding-bottom: 20px; /* Adjust bottom padding for mobile */
+        overflow-x: hidden;
+    }
+
+    .testimonials-header-txt {
+        padding-top: 40px; /* Reduce top padding */
+    }
+
+    .testimonials-header-txt h3 {
+        font-size: 1rem; /* Adjust font size for header */
+    }
+
+    .testimonials-header-txt h2 {
+        font-size: 1.5rem; /* Adjust font size for main title */
+    }
+
+    .testimonial-cards {
+        padding: 20px; /* Reduce padding */
+    }
+
+    .testimonials-container {
+        grid-template-columns: 1fr; /* Stack cards in a single column */
+        gap: 15px; /* Reduce gap between cards */
+        padding: 20px;
+    }
+
+    .testimonial-cards p {
+        font-size: 0.8rem; /* Adjust font size for testimonial text */
+    }
+
+    .card-owner {
+        padding-top: 20px; /* Reduce top padding */
+        padding-bottom: 20px; /* Adjust bottom padding */
+    }
+
+    .card-owner img {
+        width: 40px; /* Adjust image size */
+        height: 40px; /* Adjust image size */
+    }
+
+    .owner-details {
+        line-height: normal; /* Adjust line height for better readability */
+    }
+}
